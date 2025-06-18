@@ -2,9 +2,9 @@
 
 on:
   push:
-    branches: [ "main" ]  # hoặc "master" nếu bạn dùng master
+    branches: [ "master" ]  # hoặc "master" nếu bạn dùng master
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
   build:
